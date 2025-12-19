@@ -1,4 +1,4 @@
-FROM openjdk:17
+FROM eclipse-temurin:17-jdk
 
 COPY target/demo-app1.jar  /usr/app/
 
